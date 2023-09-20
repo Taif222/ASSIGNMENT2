@@ -1,4 +1,9 @@
- public class SensorDataProcessor {
+// Missing import statements written by Rogayah Garout
+import java.io.BufferedWriter; 
+import java.io.FileWriter; 
+import java.io.IOException; 
+
+public class SensorDataProcessor {
 // Senson data and limits.
 public double[][][] data;
 public double[][] limit;
@@ -51,8 +56,11 @@ out.write(data2[i][j] + "\t");
 }
 }
 out.close();
-} catch (Exception e) {
-System.out.println("Error= " + e);
+} // Exception catch block modified by Rogayah Garout 
+catch (IOException e) {
+System.out.println("Error " + e.getMessage());
 }
+// Missing return statement written by Rogayah Garout
+return 0.0;
 }
 }
