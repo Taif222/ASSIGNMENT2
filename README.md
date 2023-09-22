@@ -12,5 +12,5 @@ public double calculate(double d) {
 int i, j, k = 0;
 double[][][] data2 = new double[data.length][data[0].length][data[0][0].length];
 
-Rogayah Garout 2112035/ The Calculate method returns value of type double, however a return statement was not written and the code is lacking three import statements for the following classes: BufferedWriter, IOException, and
+Rogayah Garout 2112035/ The code is lacking three import statements for the following classes: BufferedWriter, IOException, and
 FileWriter. In addition, it is better to specify the exception catch block by modifying it to IOException. 
