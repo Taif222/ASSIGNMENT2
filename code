@@ -60,7 +60,6 @@ out.close();
 catch (IOException e) {
 System.out.println("Error " + e.getMessage());
 }
-// Missing return statement written by Rogayah Garout
 return 0.0;
 }
 }
